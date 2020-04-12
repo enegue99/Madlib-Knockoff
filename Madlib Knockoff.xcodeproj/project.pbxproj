@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4020F0732442B6F100C8AE5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F0722442B6F100C8AE5F /* AppDelegate.swift */; };
+		4020F0752442B6F100C8AE5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F0742442B6F100C8AE5F /* SceneDelegate.swift */; };
+		4020F0772442B6F100C8AE5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F0762442B6F100C8AE5F /* ViewController.swift */; };
+		4020F07A2442B6F100C8AE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4020F0782442B6F100C8AE5F /* Main.storyboard */; };
+		4020F07C2442B6F600C8AE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4020F07B2442B6F600C8AE5F /* Assets.xcassets */; };
+		4020F07F2442B6F600C8AE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4020F07D2442B6F600C8AE5F /* LaunchScreen.storyboard */; };
+		4020F08A2442B6F700C8AE5F /* Madlib_KnockoffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F0892442B6F700C8AE5F /* Madlib_KnockoffTests.swift */; };
+		4020F0952442B6F700C8AE5F /* Madlib_KnockoffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020F0942442B6F700C8AE5F /* Madlib_KnockoffUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4020F0862442B6F700C8AE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4020F0672442B6F100C8AE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4020F06E2442B6F100C8AE5F;
+			remoteInfo = "Madlib Knockoff";
+		};
+		4020F0912442B6F700C8AE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4020F0672442B6F100C8AE5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4020F06E2442B6F100C8AE5F;
+			remoteInfo = "Madlib Knockoff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4020F06F2442B6F100C8AE5F /* Madlib Knockoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Madlib Knockoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4020F0722442B6F100C8AE5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4020F0742442B6F100C8AE5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4020F0762442B6F100C8AE5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4020F0792442B6F100C8AE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4020F07B2442B6F600C8AE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4020F07E2442B6F600C8AE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4020F0802442B6F600C8AE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4020F0852442B6F700C8AE5F /* Madlib KnockoffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Madlib KnockoffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4020F0892442B6F700C8AE5F /* Madlib_KnockoffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madlib_KnockoffTests.swift; sourceTree = "<group>"; };
+		4020F08B2442B6F700C8AE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4020F0902442B6F700C8AE5F /* Madlib KnockoffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Madlib KnockoffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4020F0942442B6F700C8AE5F /* Madlib_KnockoffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Madlib_KnockoffUITests.swift; sourceTree = "<group>"; };
+		4020F0962442B6F700C8AE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4020F06C2442B6F100C8AE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F0822442B6F700C8AE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F08D2442B6F700C8AE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4020F0662442B6F100C8AE5F = {
+			isa = PBXGroup;
+			children = (
+				4020F0712442B6F100C8AE5F /* Madlib Knockoff */,
+				4020F0882442B6F700C8AE5F /* Madlib KnockoffTests */,
+				4020F0932442B6F700C8AE5F /* Madlib KnockoffUITests */,
+				4020F0702442B6F100C8AE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4020F0702442B6F100C8AE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4020F06F2442B6F100C8AE5F /* Madlib Knockoff.app */,
+				4020F0852442B6F700C8AE5F /* Madlib KnockoffTests.xctest */,
+				4020F0902442B6F700C8AE5F /* Madlib KnockoffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4020F0712442B6F100C8AE5F /* Madlib Knockoff */ = {
+			isa = PBXGroup;
+			children = (
+				4020F0722442B6F100C8AE5F /* AppDelegate.swift */,
+				4020F0742442B6F100C8AE5F /* SceneDelegate.swift */,
+				4020F0762442B6F100C8AE5F /* ViewController.swift */,
+				4020F0782442B6F100C8AE5F /* Main.storyboard */,
+				4020F07B2442B6F600C8AE5F /* Assets.xcassets */,
+				4020F07D2442B6F600C8AE5F /* LaunchScreen.storyboard */,
+				4020F0802442B6F600C8AE5F /* Info.plist */,
+			);
+			path = "Madlib Knockoff";
+			sourceTree = "<group>";
+		};
+		4020F0882442B6F700C8AE5F /* Madlib KnockoffTests */ = {
+			isa = PBXGroup;
+			children = (
+				4020F0892442B6F700C8AE5F /* Madlib_KnockoffTests.swift */,
+				4020F08B2442B6F700C8AE5F /* Info.plist */,
+			);
+			path = "Madlib KnockoffTests";
+			sourceTree = "<group>";
+		};
+		4020F0932442B6F700C8AE5F /* Madlib KnockoffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4020F0942442B6F700C8AE5F /* Madlib_KnockoffUITests.swift */,
+				4020F0962442B6F700C8AE5F /* Info.plist */,
+			);
+			path = "Madlib KnockoffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4020F06E2442B6F100C8AE5F /* Madlib Knockoff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4020F0992442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib Knockoff" */;
+			buildPhases = (
+				4020F06B2442B6F100C8AE5F /* Sources */,
+				4020F06C2442B6F100C8AE5F /* Frameworks */,
+				4020F06D2442B6F100C8AE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Madlib Knockoff";
+			productName = "Madlib Knockoff";
+			productReference = 4020F06F2442B6F100C8AE5F /* Madlib Knockoff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4020F0842442B6F700C8AE5F /* Madlib KnockoffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4020F09C2442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib KnockoffTests" */;
+			buildPhases = (
+				4020F0812442B6F700C8AE5F /* Sources */,
+				4020F0822442B6F700C8AE5F /* Frameworks */,
+				4020F0832442B6F700C8AE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4020F0872442B6F700C8AE5F /* PBXTargetDependency */,
+			);
+			name = "Madlib KnockoffTests";
+			productName = "Madlib KnockoffTests";
+			productReference = 4020F0852442B6F700C8AE5F /* Madlib KnockoffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4020F08F2442B6F700C8AE5F /* Madlib KnockoffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4020F09F2442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib KnockoffUITests" */;
+			buildPhases = (
+				4020F08C2442B6F700C8AE5F /* Sources */,
+				4020F08D2442B6F700C8AE5F /* Frameworks */,
+				4020F08E2442B6F700C8AE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4020F0922442B6F700C8AE5F /* PBXTargetDependency */,
+			);
+			name = "Madlib KnockoffUITests";
+			productName = "Madlib KnockoffUITests";
+			productReference = 4020F0902442B6F700C8AE5F /* Madlib KnockoffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4020F0672442B6F100C8AE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = DEJ_Apps;
+				TargetAttributes = {
+					4020F06E2442B6F100C8AE5F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					4020F0842442B6F700C8AE5F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 4020F06E2442B6F100C8AE5F;
+					};
+					4020F08F2442B6F700C8AE5F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 4020F06E2442B6F100C8AE5F;
+					};
+				};
+			};
+			buildConfigurationList = 4020F06A2442B6F100C8AE5F /* Build configuration list for PBXProject "Madlib Knockoff" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4020F0662442B6F100C8AE5F;
+			productRefGroup = 4020F0702442B6F100C8AE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4020F06E2442B6F100C8AE5F /* Madlib Knockoff */,
+				4020F0842442B6F700C8AE5F /* Madlib KnockoffTests */,
+				4020F08F2442B6F700C8AE5F /* Madlib KnockoffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4020F06D2442B6F100C8AE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4020F07F2442B6F600C8AE5F /* LaunchScreen.storyboard in Resources */,
+				4020F07C2442B6F600C8AE5F /* Assets.xcassets in Resources */,
+				4020F07A2442B6F100C8AE5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F0832442B6F700C8AE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F08E2442B6F700C8AE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4020F06B2442B6F100C8AE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4020F0772442B6F100C8AE5F /* ViewController.swift in Sources */,
+				4020F0732442B6F100C8AE5F /* AppDelegate.swift in Sources */,
+				4020F0752442B6F100C8AE5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F0812442B6F700C8AE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4020F08A2442B6F700C8AE5F /* Madlib_KnockoffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4020F08C2442B6F700C8AE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4020F0952442B6F700C8AE5F /* Madlib_KnockoffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4020F0872442B6F700C8AE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4020F06E2442B6F100C8AE5F /* Madlib Knockoff */;
+			targetProxy = 4020F0862442B6F700C8AE5F /* PBXContainerItemProxy */;
+		};
+		4020F0922442B6F700C8AE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4020F06E2442B6F100C8AE5F /* Madlib Knockoff */;
+			targetProxy = 4020F0912442B6F700C8AE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4020F0782442B6F100C8AE5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4020F0792442B6F100C8AE5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4020F07D2442B6F600C8AE5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4020F07E2442B6F600C8AE5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4020F0972442B6F700C8AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4020F0982442B6F700C8AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4020F09A2442B6F700C8AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib Knockoff/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-Knockoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4020F09B2442B6F700C8AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib Knockoff/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-Knockoff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4020F09D2442B6F700C8AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib KnockoffTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-KnockoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madlib Knockoff.app/Madlib Knockoff";
+			};
+			name = Debug;
+		};
+		4020F09E2442B6F700C8AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib KnockoffTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-KnockoffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Madlib Knockoff.app/Madlib Knockoff";
+			};
+			name = Release;
+		};
+		4020F0A02442B6F700C8AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib KnockoffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-KnockoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Madlib Knockoff";
+			};
+			name = Debug;
+		};
+		4020F0A12442B6F700C8AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Madlib KnockoffUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DEJ-Apps.Madlib-KnockoffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Madlib Knockoff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4020F06A2442B6F100C8AE5F /* Build configuration list for PBXProject "Madlib Knockoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4020F0972442B6F700C8AE5F /* Debug */,
+				4020F0982442B6F700C8AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4020F0992442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib Knockoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4020F09A2442B6F700C8AE5F /* Debug */,
+				4020F09B2442B6F700C8AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4020F09C2442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib KnockoffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4020F09D2442B6F700C8AE5F /* Debug */,
+				4020F09E2442B6F700C8AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4020F09F2442B6F700C8AE5F /* Build configuration list for PBXNativeTarget "Madlib KnockoffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4020F0A02442B6F700C8AE5F /* Debug */,
+				4020F0A12442B6F700C8AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4020F0672442B6F100C8AE5F /* Project object */;
+}
